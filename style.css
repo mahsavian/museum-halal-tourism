@@ -72,6 +72,7 @@ main {
     overflow: hidden;
 }
 .video-placeholder img { width: 100%; display: block; }
+
 .play-button-overlay {
     position: absolute;
     top: 50%; left: 50%;
@@ -81,4 +82,14 @@ main {
     padding: 15px 25px;
     border-radius: 50px;
     font-weight: bold;
+}
+
+/* Added Footer Style to keep the layout clean */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    font-size: 0.85em;
+    color: #777;
 }
